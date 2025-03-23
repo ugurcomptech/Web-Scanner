@@ -31,7 +31,7 @@ python3 main.py
 
 Eğer site askıya alınmışsa aşağıdaki gibi askıya alındığına dair uyarı vermektedir. 
 
-![image](https://github.com/user-attachments/assets/ca416c61-0a71-48ca-8453-c32c652e0e4e)
+![image](https://github.com/user-attachments/assets/ca33a698-0d53-4613-9752-9e68938d5389)
 
 Yeni bir dosya eklendiği zaman aşağıdaki gibi dosyayı tarayıp içerisinde eğer zararlı bir kod var ise göstermektedir.
 
