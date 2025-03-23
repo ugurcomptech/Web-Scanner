@@ -27,9 +27,19 @@ Scripti manuel olarak çalıştırabilirsiniz:
 python3 main.py
 ```
 
-### Örnek Çıktı
+### Örnek Çıktılar
+
+Eğer site askıya alınmışsa aşağıdaki gibi askıya alındığına dair uyarı vermektedir. 
 
 ![image](https://github.com/user-attachments/assets/ca416c61-0a71-48ca-8453-c32c652e0e4e)
+
+Yeni bir dosya eklendiği zaman aşağıdaki gibi dosyayı tarayıp içerisinde eğer zararlı bir kod var ise göstermektedir.
+
+![image](https://github.com/user-attachments/assets/c3976495-13bf-4d5f-ac11-a02038aa38fb)
+
+Dosyanın içeriği değiştirildiği zaman ve içinde herhangi bir zararlı kod var ise aşağıdaki gibi göstermektedir.
+
+![image](https://github.com/user-attachments/assets/3e38599c-75d5-4868-a4cd-ed77085faa42)
 
 
 Eğer bir `systemd` servisi olarak çalıştırmak isterseniz:
