@@ -27,6 +27,11 @@ Scripti manuel olarak çalıştırabilirsiniz:
 python3 main.py
 ```
 
+### Örnek Çıktı
+
+![image](https://github.com/user-attachments/assets/ca416c61-0a71-48ca-8453-c32c652e0e4e)
+
+
 Eğer bir `systemd` servisi olarak çalıştırmak isterseniz:
 ```bash
 sudo cp scanner.service /etc/systemd/system/
