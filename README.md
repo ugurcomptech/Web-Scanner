@@ -50,6 +50,23 @@ sudo systemctl enable scanner.service
 sudo systemctl start scanner.service
 ```
 
+scanner.service dosyası aşağıdaki gibidir:
+
+```bash
+[Unit]
+Description=Malware Scanner
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /root/scan/main.py
+Restart=always
+User=root
+WorkingDirectory=/root
+
+[Install]
+WantedBy=multi-user.target
+```
+
 ## Not
 
 Scriptlerde yazılan dosya yolları örnek olarak yazılmıştır. Kendi sunucunuza göre yapılandırmanız gerekmektedir.
