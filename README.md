@@ -35,6 +35,10 @@ sudo systemctl enable scanner.service
 sudo systemctl start scanner.service
 ```
 
+## Not
+
+Scriptlerde yazılan dosya yolları örnek olarak yazılmıştır. Kendi sunucunuza göre yapılandırmanız gerekmektedir.
+
 ## 📄 Lisans
 Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
 
